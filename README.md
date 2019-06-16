@@ -1,5 +1,5 @@
 # AstarSearch
-A implementation of A* Search in python3.
+An implementation of A* Search in Python3.
 
 ##### The MAP here is in the following format.
 - The MAP.intersections are represented as a dictionary.
@@ -16,7 +16,7 @@ A implementation of A* Search in python3.
 - f_cost: path cost so far + heuristic
 
 ### AstarSearch properties
-- Explored: a set of explored nodes
+- Explored: a set of explored nodes.
 - Frontier: a ser of nodes which are adjacent to explored nodes but did not explore.
 
 ### AstarSearch algorithm
