@@ -13,6 +13,7 @@ An implementation of A* Search in Python3.
   - ID: node_id/intersections_id
   - coordinates:
   - heuristic: estimated/sortest distance to the goal node
+- parent: record this node was expand from which node, will be use to generate final path.
 - f_cost: the path cost (real disrance) so far + heuristic
 
 ### AstarSearch properties
